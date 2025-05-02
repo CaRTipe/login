@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+a {
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+.both {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+button {
+    margin-bottom: 20px;
+}
+p {
+    display: flex;
+    justify-content: center;
+}
+.select {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid grey;
+    border-radius: 20px;
+    gap: 40px;
+}
+h2 {
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 8px;
+}
