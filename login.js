@@ -16,14 +16,14 @@ var signup = document.getElementById('signup')
 // }
 function showSignup() {
     var signup = document.getElementById("signup")
-    signup.style.display = "block"
+    signup.style.visibility = "visible"
     var login = document.getElementById("login")
-    login.style.display = "none"
+    login.style.visibility = "hidden"
     
 }
 function showLogin() {
     var login = document.getElementById("login")
-    login.style.display = "block"
+    login.style.visibility = "visible"
     var signup = document.getElementById("signup")
-    signup.style.display = "none"
+    signup.style.visibility = "hidden"
 }
